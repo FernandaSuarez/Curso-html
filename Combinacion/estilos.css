@@ -1,0 +1,16 @@
+h2 + p {
+    color: red;
+}/*Hermano*/
+
+h2 ~ p{
+    color: blue;
+}/*Hermano general*/
+
+div > p{
+    color: red;
+} /*Hijo directo*/
+
+div p{
+    color: blueviolet;
+}
+/**descendiente/
